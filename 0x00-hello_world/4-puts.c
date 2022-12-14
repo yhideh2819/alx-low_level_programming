@@ -6,8 +6,8 @@
  *  puzzle, followed by a newline.
  *  Return: Always 0.
  */
-ii
-int main (void)
+
+int main(void)
 
 {
 
