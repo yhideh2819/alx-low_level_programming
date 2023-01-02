@@ -20,3 +20,4 @@ int main(void)
 	else
 		printf("last digit of %d is %d and is less than 6 and not 0\n", n, lastNum);
 	return (0);
+}
