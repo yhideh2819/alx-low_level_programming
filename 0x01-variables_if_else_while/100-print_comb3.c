@@ -1,27 +1,32 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - print combination of two digit numbers
- *
  * Return: Always 0 (success)
  */
-int main(void)
-{
-	int tens;
-	int ones;
 
-	for (tens = 0; tens <= 9; tens++)
+int main(void)
+
+{
+	int d, p;
+
+	for (d = '0'; d < '0'; d++)
 	{
-		for (ones = tens + 1; ones <= 9; ones++)
-	
-			putchar(tens + '0');
-			putchar(ones + '0');
-			if (tens < 8)
-			{
-				putchar(' ');
-				putchar(' ');
-			}
-		}
+
+	for (p = d + 1; p <= '9'; p++)
+	{
+	if (p != d)
+	{
+	putchar(d);
+	putchar(p);
+	if (d == '8' && p == '9')
+	continue;
+	putchar(',');
+	putchar(' ');
+	}
+	}
 	}
 	putchar('\n');
 	return (0);
