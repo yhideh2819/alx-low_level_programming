@@ -1,21 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - print all possible combinations of single digit numbers
  * Return: Always 0 (success)
  */
+
 int main(void)
+
 {
-	int number;
-	for (number = 0; number <= 9; number++)
+	int d;
+
+	for (d = '0'; d <= '9'; d++)
 	{
-	putchar(number + '0');
-	if (number < 9)
+	putchar (d);
+	if (d != '9')
 	{
-	putchar(' ');
+	putchar(',');
 	putchar(' ');
 	}
 	}
 	putchar('\n');
-return (0);
+	return (0);
 }
