@@ -3,8 +3,8 @@
 
 /**
  * main - prints the size of various types base on the
- * th computer it is compiles and run on
- * Return: always 0
+ * the computer it is compiles and run on..
+ * Return: Always 0.
  */
 
 int main(void)
