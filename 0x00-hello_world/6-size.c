@@ -2,10 +2,11 @@
 
 
 /**
- * main - prints the size of various types base on the
+ * main - Prints the size of various types base on the
  * the computer it is compiles and run on..
  * Return: Always 0.
  */
+
 
 int main(void)
 
